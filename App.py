@@ -1,6 +1,12 @@
-num1 =  float(input("Insert the first number: "));
-num2 = float(input("Insert the second number: "));
+x = 10;
 
-sum = num1 + num2;
+x +=  3;
 
-print("Sum: " + str(sum));
+if x < 10:
+    print("Hello World")
+elif x > 10:
+    print("wooohoooo")
+elif x == 10:
+    print("lol")
+else:
+    print(x);
